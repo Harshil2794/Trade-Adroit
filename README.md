@@ -1,3 +1,1 @@
-# ss
-# shraddha-solutions
-# Trade-Adroit
+# arabic
