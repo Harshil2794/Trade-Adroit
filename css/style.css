@@ -87,15 +87,18 @@ a:hover .normal-img { display: none; transition: 0.3s ease-in-out; -webkit-trans
 
 
 /* footer */
-.footer { background: #dedada; padding: 50px 0 0 0; }
+.map-block img { width: 100%; display: block; }
+.footer-line img { width: 100%; }
+.footer { background: #E4E4E4; padding: 0; margin-top: 50px; }
+.footer-line { margin-bottom: 30px; }
 .footer p { text-align: left; }
 .footer-inside { display: flex; padding-bottom: 50px; }
-.footer-col h3 { text-align: left; font-weight: 600; margin-bottom: 30px; color: #363636; }
+.footer-col h3 { text-align: right; font-weight: 600; margin-bottom: 30px; color: #000; font-size: 18px; }
 .footer-contact { display: flex; }
-.footer margin-right: 10px;-contact i { margin-right: 10px; }
+.footer-contact i { margin-right: 10px; }
 .footer h2 { color: #363636; }
 .footer h4 { color: #363636; }
-.footer-col ul li a { font-size: 16px; color: #363636; line-height: 20px; margin-bottom: 8px; display: block; }
+.footer-col ul li a { font-size: 16px; color: #363636; line-height: 20px; margin-bottom: 2px; display: block; }
 .footer-col ul li:last-child a { margin-bottom: 0; }
 .footer-col ul li a:hover { color: #005b9e; }
 .footer-contact { margin-bottom: 20px; }
@@ -103,7 +106,7 @@ a:hover .normal-img { display: none; transition: 0.3s ease-in-out; -webkit-trans
 .footer-contact address { color: #363636; }
 .footer-contact:last-child { margin-bottom: 0; }
 .footer-contact.owner-info { display: flex; align-items: center; }
-.footer-col { width: 33.33%; box-sizing: border-box; }
+.footer-col { width: 33.33%; box-sizing: border-box; padding: 0 15px; text-align: right; }
 .social-block ul { display: flex; }
 .social-block ul li { margin-right: 20px; }
 .social-block ul li:last-child { margin-right: 0; }
@@ -115,6 +118,9 @@ a:hover .normal-img { display: none; }
 .footer-bottom p { font-size: 16px; color: #363636; font-weight: 600; text-align: center; margin-bottom: 0; }
 .footer-col p { color: #363636; }
 .footer-col.col1 p { padding-right: 40px; }
+.footer-col.col2 { width: 50%; }
+.footer-col.col3 { width: 25%; }
+.footer-col.col4 { width: 25%; }
 
 
 
@@ -167,6 +173,7 @@ textarea.form-control { padding: 16px 15px; height: 80px; resize: none; }
 
 
 /* about-barcode */
+.about-barcode { overflow: hidden; }
 .common-block { text-align: right; }
 .inner-barcode { background: #E4E4E4; padding: 50px 30px; }
 .inner-barcode h3 { font-size: 60px; line-height: 66px; color: #AF8F6E; margin-bottom: 18px; }
